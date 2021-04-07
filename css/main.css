@@ -116,7 +116,7 @@ a:active {
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Zilla Slab Highlight', cursive;
   font-weight: 600;
   color: #FFFFFF;
   text-rendering: optimizeLegibility;
@@ -1425,7 +1425,7 @@ body.menu-is-open {
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Zilla Slab Highlight', cursive;
   font-weight: 600;
   font-size: 2.6rem;
   line-height: 1.5;
@@ -1435,7 +1435,7 @@ body.menu-is-open {
 }
 
 .subhead {
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Zilla Slab Highlight', cursive;
   font-weight: 600;
   font-size: 1.8rem;
   line-height: 1.333;
@@ -1784,7 +1784,7 @@ body.menu-is-open {
 
 .header-nav h3 {
   display: inline-block;
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Zilla Slab Highlight', cursive;
   font-weight: 700;
   font-size: 12px;
   line-height: 1.25;
@@ -1827,7 +1827,7 @@ body.menu-is-open {
 }
 
 .header-nav__list {
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Zilla Slab Highlight', cursive;
   font-weight: 600;
   font-size: 2.8rem;
   line-height: 1.286;
@@ -1851,7 +1851,7 @@ body.menu-is-open {
   display: block;
   content: counter(ctr, decimal-leading-zero) ".";
   counter-increment: ctr;
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Zilla Slab Highlight', cursive;
   font-size: 11px;
   color: rgba(255, 255, 255, 0.25);
   -webkit-transition: all 0.5s ease-in-out;
@@ -1967,7 +1967,7 @@ body.menu-is-open {
   width: 48px;
   height: 45px;
   line-height: 45px;
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Zilla Slab Highlight', cursive;
   font-weight: 600;
   font-size: 13px;
   text-transform: uppercase;
@@ -2204,7 +2204,7 @@ body.menu-is-open {
 
 .home-content h1 {
   padding-top: 13%;
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Zilla Slab Highlight', cursive;
   font-weight: 700;
   font-size: 12rem;
   line-height: 1;
@@ -2216,7 +2216,7 @@ body.menu-is-open {
 
 .home-content h3 {
   margin-top: 1.2rem;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Zilla Slab Highlight', cursive;
   font-weight: 300;
   font-size: 3.8rem;
   line-height: 1.342;
@@ -2854,7 +2854,7 @@ html.no-csstransitions .home-content__main {
   content: counter(ctr);
   counter-increment: ctr;
   display: block;
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Zilla Slab Highlight', cursive;
   font-size: 2.1rem;
   font-weight: 700;
   text-align: center;
@@ -3960,7 +3960,7 @@ footer a {
   color: #FFFFFF;
   background-color: #800000;
   text-align: center;
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Zilla Slab Highlight', cursive;
   font-weight: 700;
   font-size: 13px;
   text-transform: uppercase;
