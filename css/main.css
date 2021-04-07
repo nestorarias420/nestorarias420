@@ -737,16 +737,17 @@ select {
   display: block;
   height: 6rem;
   padding: 1.5rem 2.4rem;
-  border: 0;
+  border: 1px darkgray solid;
   outline: none;
   color: rgba(255, 255, 255, 0.7);
   font-family: "Nunito Sans", sans-serif;
   font-size: 1.5rem;
   line-height: 3rem;
-  max-width: 100%;
+  width: 100%;
   background: rgba(255, 255, 255, 0.05);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+
 }
 
 .ss-custom-select {
@@ -806,7 +807,11 @@ select {
 }
 
 textarea {
-  min-height: 25rem;
+  min-height: 190px;
+}
+
+form{
+  width: 100%;
 }
 
 input[type="email"]:focus,
@@ -1449,6 +1454,30 @@ body.menu-is-open {
   margin-bottom: 2.4rem;
 }
 
+
+.rowBotonVolver{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rowBotonVolver button{
+  margin-top: 40px;
+  max-width: 300px;
+  border: 1px solid darkgray;
+  background-color: transparent;
+  color: darkgray;
+  transition: 0.3s;
+}
+
+.rowBotonVolver button:hover{
+  border: 1px solid darkgray;
+  background-color: darkgray;
+  color: black;
+  transition: 0.3s;
+}
+
+
 /* ------------------------------------------------------------------- 
  * ## section header
  * ------------------------------------------------------------------- */
@@ -1521,6 +1550,7 @@ body.menu-is-open {
 }
 
 .portfolio_item_header{
+
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -1537,6 +1567,10 @@ body.menu-is-open {
 
 .portfolio_item_header p{
   font-size: 13px;
+}
+
+.portfolio_item_header0{
+  background-image:url(/images/portfolio/nestor/superficieSimbolica/zoom5.png);
 }
 
 .portfolio_item_header1{
@@ -3094,6 +3128,17 @@ html.no-csstransitions .home-content__main {
   padding: 0;
 }
 
+.masonry__brick h3{
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: darkgray;
+  letter-spacing: 2px;
+}
+
 .item-folio {
   position: relative;
   overflow: hidden;
@@ -3662,7 +3707,7 @@ html.no-csstransitions .home-content__main {
 .s-contact {
   padding-top: 16.2rem;
   padding-bottom: 10rem;
-  background-color: #a10505;
+  background-color: black;
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   position: relative;
