@@ -116,7 +116,7 @@ a:active {
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Zilla Slab Highlight', cursive;
+  font-family: 'Lato', sans-serif;
   font-weight: 600;
   color: #FFFFFF;
   text-rendering: optimizeLegibility;
@@ -1425,7 +1425,7 @@ body.menu-is-open {
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-  font-family: 'Zilla Slab Highlight', cursive;
+  font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 2.6rem;
   line-height: 1.5;
@@ -1435,7 +1435,7 @@ body.menu-is-open {
 }
 
 .subhead {
-  font-family: 'Zilla Slab Highlight', cursive;
+  font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 1.8rem;
   line-height: 1.333;
@@ -1579,6 +1579,10 @@ body.menu-is-open {
 
 .portfolio_item_header2{
   background-image:url(/images/portfolio/nestor/superficieSimbolica/zoom2.png);
+}
+
+.portfolio_item_header3{
+  background-image:url(/images/portfolio/nestor/camisetas/zoom4.jpeg);
 }
 
 
@@ -1784,7 +1788,7 @@ body.menu-is-open {
 
 .header-nav h3 {
   display: inline-block;
-  font-family: 'Zilla Slab Highlight', cursive;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 12px;
   line-height: 1.25;
@@ -1827,7 +1831,7 @@ body.menu-is-open {
 }
 
 .header-nav__list {
-  font-family: 'Zilla Slab Highlight', cursive;
+  font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 2.8rem;
   line-height: 1.286;
@@ -1851,7 +1855,7 @@ body.menu-is-open {
   display: block;
   content: counter(ctr, decimal-leading-zero) ".";
   counter-increment: ctr;
-  font-family: 'Zilla Slab Highlight', cursive;
+  font-family: 'Lato', sans-serif;
   font-size: 11px;
   color: rgba(255, 255, 255, 0.25);
   -webkit-transition: all 0.5s ease-in-out;
@@ -1967,7 +1971,7 @@ body.menu-is-open {
   width: 48px;
   height: 45px;
   line-height: 45px;
-  font-family: 'Zilla Slab Highlight', cursive;
+  font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 13px;
   text-transform: uppercase;
@@ -2204,7 +2208,7 @@ body.menu-is-open {
 
 .home-content h1 {
   padding-top: 13%;
-  font-family: 'Zilla Slab Highlight', cursive;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 12rem;
   line-height: 1;
@@ -2216,7 +2220,7 @@ body.menu-is-open {
 
 .home-content h3 {
   margin-top: 1.2rem;
-  font-family: 'Zilla Slab Highlight', cursive;
+  font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 3.8rem;
   line-height: 1.342;
@@ -2854,7 +2858,7 @@ html.no-csstransitions .home-content__main {
   content: counter(ctr);
   counter-increment: ctr;
   display: block;
-  font-family: 'Zilla Slab Highlight', cursive;
+  font-family: 'Lato', sans-serif;
   font-size: 2.1rem;
   font-weight: 700;
   text-align: center;
@@ -3924,9 +3928,9 @@ footer {
   padding-top: 9rem;
   padding-bottom: 6rem;
   color: white;
-  background-image: url(/images/footer.png);
+  background-image: url(/images/portfolio/nestor/camisetas/zoom2.jpeg);
   background-attachment: fixed;
-  background-position: center center;
+  background-position: top center;
   background-size: cover;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
@@ -3960,7 +3964,7 @@ footer a {
   color: #FFFFFF;
   background-color: #800000;
   text-align: center;
-  font-family: 'Zilla Slab Highlight', cursive;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 13px;
   text-transform: uppercase;
