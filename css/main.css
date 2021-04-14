@@ -1589,6 +1589,10 @@ body.menu-is-open {
   background-image:url(/images/portfolio/nestor/tatuajes/zoom1.jpg);
 }
 
+.portfolio_item_header5{
+  background-image:url(/images/portfolio/nestor/superficieSimbolica/zoom3.png);
+}
+
 
 
 
@@ -3442,12 +3446,12 @@ html.no-csstransitions .home-content__main {
 
 .portfolioItem img{
   transition: 0.5s;
-  filter:grayscale(0%);
+  filter:grayscale(100%);
 }
 
 .portfolioItem:hover img{
   transition: 0.5s;
-  filter:grayscale(100%);
+  filter:grayscale(0%);
 }
 
 .portfolioItem:hover .textOverlay{
