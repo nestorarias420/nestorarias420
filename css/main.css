@@ -3143,7 +3143,6 @@ html.no-csstransitions .home-content__main {
   font-family: "Nunito Sans", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
-  color: darkgray;
   letter-spacing: 2px;
 }
 
@@ -3416,6 +3415,49 @@ html.no-csstransitions .home-content__main {
 .clients li {
   display: inline-block;
   padding: 0 1.5rem;
+}
+
+.portfolioItem{
+  position: relative;
+}
+
+.textOverlay{
+  position: absolute;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  z-index: 99;
+  top: 45%;
+  width: 100%;
+  color: transparent;
+  background-color: transparent;
+  transition: 0.2s;
+}
+
+.textOverlay h3{
+  padding-top: 20px;
+  color: transparent;
+  transition: 0.2s;
+}
+
+.portfolioItem img{
+  transition: 0.5s;
+  filter:grayscale(0%);
+}
+
+.portfolioItem:hover img{
+  transition: 0.5s;
+  filter:grayscale(100%);
+}
+
+.portfolioItem:hover .textOverlay{
+  background-color: black;
+  transition: 0.3s;
+}
+
+.portfolioItem:hover .textOverlay h3{
+  color: darkgray;
+  transition: 0.7s;
 }
 
 /* ------------------------------------------------------------------- 
