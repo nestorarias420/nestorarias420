@@ -2938,6 +2938,24 @@ html.no-csstransitions .home-content__main {
   padding-left: 30px;
 }
 
+
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+  margin: 0 8%;
+	}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}
+
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * about
@@ -2987,6 +3005,7 @@ html.no-csstransitions .home-content__main {
   .item-process:nth-child(n) {
     padding: 0 10px;
   }
+
 
 }
 
