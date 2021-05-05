@@ -1464,9 +1464,9 @@ body.menu-is-open {
 .rowBotonVolver button{
   margin-top: 40px;
   max-width: 300px;
-  border: 1px solid darkgray;
+  border: 1px solid black;
   background-color: transparent;
-  color: darkgray;
+  color: black;
   transition: 0.3s;
 }
 
@@ -2837,14 +2837,14 @@ html.no-csstransitions .home-content__main {
 }
 
 .paleta1{
-  margin-top: 40px;
+  margin-bottom: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .paleta1 h3{
-  color: darkgray;
+  color: black;
   font-weight: 300;
   font-size: 18px;
   text-transform: uppercase;
@@ -3147,7 +3147,6 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-works {
   padding-top: 10rem;
-  padding-bottom: 18rem;
   position: relative;
 }
 
@@ -3156,7 +3155,6 @@ html.no-csstransitions .home-content__main {
  * ## bricks/masonry
  * ------------------------------------------------------------------- */
 .masonry-wrap {
-  margin-top: 7.2rem;
   max-width: 1100px;
   position: relative;
 }
@@ -3823,6 +3821,22 @@ html.no-csstransitions .home-content__main {
   margin-right: 15px;
   padding-left: 0;
   display: inline-block;
+}
+
+
+.contenedorw{
+  width: 100%;
+  background-color: white;
+  padding-bottom: 18rem;
+  padding-top: 7.2rem;
+}
+
+
+.contenedorb{
+  width: 100%;
+  background-color: black;
+  padding-bottom: 18rem;
+  padding-top: 7.2rem;
 }
 
 .contact-social li a {
